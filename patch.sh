@@ -138,7 +138,7 @@ patch() {
 main() {
 
     ## defaults
-    [ -z "$what_to_patch" ] && what_to_patch="youtube"
+    [ -z "$what_to_patch" ] && what_to_patch="youtube-music"
     [ -z "$nonroot" ] && nonroot=1
     [ -z "$additional_args" ] && additional_args=""
 
